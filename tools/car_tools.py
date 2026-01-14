@@ -43,6 +43,7 @@ def analyze_car_ads ( raw_ads:str, car_model:str):
 
     return resp
 
+car_tools = [load_webpages,analyze_car_ads]
 
 
 
