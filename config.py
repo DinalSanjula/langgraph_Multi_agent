@@ -8,7 +8,7 @@ def get_crypto_llm():
     return ChatOpenAI(model="gpt-5.2-2025-12-11")
 
 def get_router_llm():
-    return ChatOpenAI(model="gpt-5.2-2025-12-11")
+    return ChatOpenAI(model="o4-mini-2025-04-16")
 
 def get_general_llm():
-    return ChatOpenAI(model="gpt-5.2-2025-12-11")
+    return ChatOpenAI(model="o4-mini-2025-04-16")
